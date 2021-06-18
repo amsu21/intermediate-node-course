@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 // IMPORT AND CONNECT THE DATABASE
 const User=require('./models/User');
-mongoose.connect('mongodb://localhost/userData')
+mongoose.connect('mongodb://localhost/userData');
 
 
 const UserSchema = new mongoose.Schema({

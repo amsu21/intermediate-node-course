@@ -18,7 +18,7 @@ app.post('/users',(req,res)=>{
 app.route('/users/:id')
 // READ
 .get((req,res)=>{
-  // User.findById()
+   //User.findById()
 })
 // UPDATE
 .put((req,res)=>{
